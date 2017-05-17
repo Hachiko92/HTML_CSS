@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <title>Ejercicio 10</title>
+        <meta name="author" content="Eleonora">
+        <meta name="keywords" content="ejercicio, listas">
+        <meta name="description" content="Ejercicio 10 sobre las listas css">
+        <!-- icona a lado del titulo de la pagina -->
+        <link rel="shortcut icon" href="icona.ico">
+        
+        <style>
+            /* il primo livello, quello che ci interessa, é il primo figlio
+               di body quindi questo comando ci restituisce quello che cerchiamo */
+            body>ol{
+                list-style-type: decimal-leading-zero;
+            }
+            ol>li>ol{
+                list-style-type: upper-alpha;
+            }
+            ul{
+                list-style-image: url('/img/bug.png');
+            }
+            /* i "libri" pari avranno un sfondo di colore differente */
+            ul li:nth-child(2n){
+                background-color: lightsalmon;
+            }
+        </style>
+
+    </head>
+    <body>
+        
+        <h1> Novelas </h1>
+
+        <ol>
+            <li> Sátira
+                <ol>
+                    <li> Chuck Palahniuk 
+                        <ul>
+                            <li> Fight Club </li>
+                            <li> Diary </li>
+                            <li> Nana </li>
+                            <li> Monstruos invisibles </li>
+                            <li> Asfixia </li>
+                        </ul>
+                    </li>
+                    <li> bla bla </li>
+                </ol>
+            </li>
+            <li> Fantasy
+                <ol>
+                    <li> George R.R. Martin 
+                        <ul>
+                            <li> Juego de tronos </li>
+                            <li> Choque de reyes </li>
+                            <li> Tormenta de espadas </li>
+                            <li> Festin de cuervos </li>
+                            <li> Danza de dragones </li>
+                            <li> Vientos de invierno </li>
+                        </ul>
+                    </li>
+                    <li> J.R.R. Tolkien
+                        <ul>
+                            <li> La Comunidad del Anillo </li>
+                            <li> Las dos torres </li>
+                            <li> El retorno del Rey </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li> thriller psicológico
+                <ol>
+                    <li> Stephen King
+                        <ul>
+                            <li> Misery </li>
+                            <li> IT </li>
+                            <li> El juego de Gerald </li>
+                        </ul>
+                    </li>
+                    <li> Paperon de Paperoni </li>
+                </ol>
+            </li>
+        </ol>
+        
+    </body>
+    
+</html>

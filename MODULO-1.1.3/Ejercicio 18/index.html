@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <title>Escocia</title>
+        <meta name="author" content="Eleonora">
+        <meta name="keywords" content="Ejercicio, scozia">
+        <meta name="description" content="Ejercicio 18, pagina sobre el Escocia">
+
+        <!-- icona -->
+        <link rel="shortcut icon" href="flag.ico">
+        <!-- google font -->
+        <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Quicksand" rel="stylesheet">
+
+        <style>
+            
+            *{
+                box-sizing: border-box;
+            }
+            
+            body{
+                color: #333;
+                font-family: 'Quicksand', sans-serif;
+            }
+
+            header, footer, .wrap, .wrap2, .ribbon {
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            .wrap, figure, #datos{
+                position: absolute;
+            }
+
+            .wrap{
+                left: 10%;
+                clear: both;
+                height: 300px;
+            }
+
+            .ribbon{
+                overflow: auto;
+                height: 350px;
+            }
+
+            /*.wrap2{
+                clear: both;
+                position: relative;
+            }*/
+
+            figure{
+                left: -35px;
+                z-index: 5;
+            }
+            
+            #datos{
+                right: 0%;
+                z-index: 10;
+                background-color: rgba(50, 50, 50, 0.8);
+                color: white;
+                padding: 1px 10px;
+            }
+
+            a{
+                color: whitesmoke;
+                font-weight: bold;
+            }
+
+            a:hover{
+                color: darkred;
+            }
+
+            a:visited{
+                color: whitesmoke;
+            }
+            
+            article{
+                width: 40%;
+                float: left;
+                margin: 5%;
+            }
+
+            article:first-child::first-line{
+                font-size: 150%;
+            }
+            h2{
+                border-bottom: 2px solid;
+            }
+
+            header, footer, h2{
+                font-family: 'Old Standard TT', serif;
+            }
+            header, footer, #decoro{
+                background-image: url("img/kilt.jpg");
+                background-repeat: repeat;
+                color: white;
+            }
+        </style>
+        
+    </head>
+    <body>
+        
+        <header>
+            <h1> Escocia </h1>
+            <h2> Scotland </h2>
+        </header>
+
+        <!-- he puesto el div "ribbon" porque el div "wrap" con la propriedad
+             "position:absolute" creaba problemas con el div "wrap2" que
+             se comportaba como si no exisía el div "wrap"  -->
+        <div class="ribbon">
+            <div class="wrap">
+                <figure>
+                    <img src="img/scozia.jpg" alt="Foto de un castillo escocés">
+                    <figcaption> Castillo escocés </figcaption>
+                </figure>
+                <div id="datos">
+                    <p>
+                        Lema: <a href="https://es.wikipedia.org/wiki/Nemo_me_impune_lacessit" target="_blank">
+                                    «Nemo me impune lacessit» 
+                            </a> <br>
+                        (en latín: «Nadie me ofende impunemente»)<br>
+                        Capital: <a href="https://es.wikipedia.org/wiki/Edimburgo" target="_blank">Edimburgo</a><br>
+                        Población: 448 624 (2006)<br>
+                        Ciudad más poblada:	<a href="https://es.wikipedia.org/wiki/Glasgow" target="_blank">Glasgow</a><br>
+                        Idioma oficial:	Inglés, escocés, gaélico<br>
+                        Entidad: Nación constitutiva, País Reino Unido<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+         <div class="wrap2">
+            
+            <h2 id="decoro"> Sobre Escocia </h2>
+
+            <article>
+                Escocia (en inglés y escocés: Scotland; en gaélico escocés: Alba) es la más
+                 septentrional de las cuatro naciones constituyentes del Reino Unido. 
+                 Junto con Inglaterra y Gales, forma parte de la isla de Gran Bretaña, 
+                 abarcando un tercio de su superficie total; además consta de más de 790 
+                 islas. Limita al norte y oeste con el océano Atlántico; al este con el mar 
+                 del Norte, al sur con Inglaterra y al suroeste con el canal del Norte y el 
+                 mar de Irlanda. El territorio escocés abarca 78 772 km², y su población se 
+                 estima en 5 347 600 habitantes en 2014,1 lo que da una densidad de población de
+                 67,9 habitantes por km². La capital es Edimburgo, mientras que Glasgow es la 
+                 ciudad más grande, y su área metropolitana concentra un 40 % del total de la 
+                 población escocesa.
+                <br><br>
+                Escocia toma su nombre de «Scotus», término latino que significa «irlandés» 
+                (la forma plural es «Scoti», «irlandeses»).2 Esto hace referencia a los 
+                colonizadores gaélicos de Irlanda, país que los romanos inicialmente llamaron 
+                «Scotia» (forma femenina de «Scotus»).2 Los irlandeses que colonizaron la 
+                actual Escocia eran conocidos como «Scoti». Los romanos de la Alta Edad Media 
+                utilizaban el nombre «Caledonia» para referirse a la actual Escocia.2
+            </article>
+            <article>
+                El Reino de Escocia fue un estado independiente hasta 1707, fecha en la que 
+                se firmó el Acta de Unión con Inglaterra, para crear el Reino de Gran Bretaña. 
+                La unión no supuso alteración del sistema legal propio de Escocia, que desde 
+                entonces ha sido distinto del de Gales, Inglaterra e Irlanda del Norte, por 
+                lo que es considerada en el derecho internacional como una entidad jurídica 
+                distinta. La pervivencia de unas leyes propias, y de un sistema educativo y 
+                religioso diferenciado forman parte de la cultura escocesa y de su desarrollo 
+                a lo largo de los siglos.
+                <br><br>
+                Surgido en el siglo XIX, el independentismo escocés ha ganado influencia desde 
+                finales del siglo XX; representado por el Scottish National Party (SNP, Partido 
+                Nacional de Escocia), que aboga por la independencia de Escocia3 y obtuvo la 
+                mayoría absoluta en el Parlamento escocés en las elecciones de mayo de 2011.
+            </article>
+        </div>       
+        
+    </body>
+    
+</html>

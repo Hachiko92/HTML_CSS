@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,sDAAsD;AAEtD,IAAI;EACA,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EAEZ,YAAQ;IACJ,KAAK,EAAE,GAAG;IACV,gBAAgB,EAAE,MAAM;EAG5B,WAAO;IAEH,UAAU,EAAE,SAAS;IAErB,aAAE;MACE,KAAK,EAAE,IAAI",
+"sources": ["../scss/inicio.scss"],
+"names": [],
+"file": "inicio.css"
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="author" content="Eleonora">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+
+        <style>
+            table{
+                margin: 0 auto;
+                width: 40%;
+                border-collapse: collapse;
+            }
+            table:hover{
+                border-collapse: separate;
+            }
+            th{
+                padding: 5px;
+            }
+            th, td{
+                border: 3px solid #C2E09E;
+                background-color: #FFECB9;
+            }
+            h1{
+                text-align: center;
+            }
+        </style>
+        
+    </head>
+    <body>
+        
+        <h1> Ejemplo de tabla </h1>
+
+        <table>
+            <tr>
+                <th scope="colgroup rowgroup" colspan="2" rowspan="2">Rerultados de la encuesta</th>
+                <th scope="colgroup" colspan="3">Edad</th>
+            </tr>
+            <tr>
+                <th scope="col">12 a 25</th>
+                <th scope="col">26 a 40</th>
+                <th scope="col">Más de 40</th>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">¿Cual es tu destino preferido <br> para las vacaciones?</th>
+                <th scope="row">Disney-Paris</th>
+                <td>50%</td>
+                <td>25%</td>
+                <td>25%</td>
+            </tr>
+            <tr>
+                <th scope="row">El caribe</th>
+                <td>25%</td>
+                <td>50%</td>
+                <td>25%</td>
+            </tr>
+            <tr>
+                <th scope="row">Europa</th>
+                <td>25%</td>
+                <td>25%</td>
+                <td>50%</td>
+            </tr>
+        </table>
+        
+    </body>
+    
+</html>

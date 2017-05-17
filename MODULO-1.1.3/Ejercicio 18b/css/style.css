@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: #333;
+    font-family: 'Quicksand', sans-serif;
+    background-color: darkred;
+    background-image: url("../img/kilt.jpg");
+    background-repeat: repeat;
+
+    -webkit-animation: fadein 1.5s; 
+       -moz-animation: fadein 1.5s; 
+        -ms-animation: fadein 1.5s; 
+         -o-animation: fadein 1.5s; 
+            animation: fadein 1.5s;
+}
+
+/* -----------------------------------fade-in---------------------------------- */
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+.wrap, .wraptotal {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wraptotal{
+    padding: 0 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+.wrap{
+    width: 100%;
+    height: 300px;
+    margin-top: 3%;
+    background-image: url("../img/scozia.jpg");
+    background-repeat: no-repeat;
+    clear: both;
+}
+
+.wrap, .wrap2{
+    overflow: auto;
+}
+
+#datos{
+    background-color: rgba(50, 50, 50, 0.8);
+    color: white;
+    float: right;
+    padding: 1px 10px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+    -o-box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+a{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+a#mail{
+    color: #434d4d;
+    text-decoration: none;
+}
+
+a:hover, a#mail:hover{
+    color: darkred;
+}
+
+a:visited{
+    color: whitesmoke;
+}
+
+article{
+    width: 40%;
+    float: left;
+    margin: 0 5% 5% 5%;
+}
+
+article > img{
+    width: 100%;
+}
+
+header, footer, h2{
+    font-family: 'Old Standard TT', serif;
+}
+
+header, footer, #decoro{
+    /*color: white;*/
+    padding: 10px;
+}
+
+header, #decoro{
+    border-bottom: 2px solid;
+}
+footer{
+    border-top: 2px solid;
+}
+
+header>h1, header>h2 {
+    margin:0;
+}
+
+.wraptotal{
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.75);
+    -o-box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.75);
+}

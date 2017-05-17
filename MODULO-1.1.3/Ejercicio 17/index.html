@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <title>Ejercicio 17</title>
+        <meta name="author" content="Eleonora">
+        <meta name="keywords" content="ejercicio, imagen, imagenes, ">
+        <meta name="description" content="Ejercicio 17: catalogo de imagenes">
+
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                color: #333;
+            }
+            .contenitore, header, footer{
+                width: 80%;
+                margin: 2% auto;
+            }
+            .contenitore{
+                border-top: 2px solid;
+                border-bottom: 2px solid;
+                overflow: auto;
+                display: -webkit-flex;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            img{
+                width: 100%;
+            }
+        </style>
+        
+    </head>
+    <body>
+        
+        <header>
+            <h1> Vintage photo shots </h1>
+        </header>
+
+        <div class="contenitore">
+            <figure>
+                <a href="img/boh.jpg" target="_blank">
+                    <img src="img/thumbnailboh.jpg" alt="una foto vintage de San Salvador">
+                </a>
+                <figcaption> San Salvador </figcaption>
+            </figure>
+            <figure>
+                <a href="img/lake.jpg" target="_blank">
+                    <img src="img/thumbnaillake.jpg" alt="una foto vintage de dos mujeres al lago">
+                </a>
+                <figcaption> Lago </figcaption>
+            </figure>
+            <figure>
+                <a href="img/halloween.jpg" target="_blank">
+                    <img src="img/thumbnailhalloween.jpg" alt="una vieja foto de halloween">
+                </a>
+                <figcaption> Halloween </figcaption>
+            </figure>
+            <figure>
+                <a href="img/city.jpg" target="_blank">
+                    <img src="img/thumbnailcity.jpg" alt="una foto vintage de un centro urbano">
+                </a>
+                <figcaption> Centro urbano </figcaption>
+            </figure>
+            <figure>
+                <a href="img/grigliata.jpg" target="_blank">
+                    <img src="img/thumbnailgrigliata.jpg" alt="una foto vintage de un hormbre mientre hace una barbacoa">
+                </a>
+                <figcaption> Barbacoa </figcaption>
+            </figure>
+        </div>
+
+        <footer>
+            <address>
+                elio tarabaralla
+            </address>
+        </footer>
+        
+    </body>
+    
+</html>

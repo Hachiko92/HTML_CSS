@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="utf-8">
+        <title>prova</title>
+        <meta name="author" content="Eleonora">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+
+        <style>
+            h1, h2, .parrafo {
+                width: 40%;
+                float: left;
+            }
+            h1{
+                background-color:coral;
+            }
+            h2{
+                background-color:aquamarine;
+            }
+            /* hay que dar overflow:auto  porque no detecta ni h1 ni h2 porque flotan,
+               un defecto de html/css */
+            header{
+                /* en teoria el valor overflow: auto pero en este caso hay como que
+                   "acuerdar" al div esta norma */
+                overflow: auto;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <header>
+            <h1> Titulo </h1>
+            <h2> Subtitulo </h2>
+        </header>
+        <div class="parrafo">
+            <p id="p1"> Hola que tal </p>
+            <p id="p2"> bla bla bla </p>
+        </div>
+
+    </body>
+
+</html>

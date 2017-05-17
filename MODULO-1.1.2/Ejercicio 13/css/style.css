@@ -1,0 +1,72 @@
+.wrap{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.wrap>div{
+    width: 100%;
+    height: 25px;
+    margin: 0;
+    padding: 1px 10px;
+    font-size: 16px;
+}
+
+#quattordici{
+    background-color: hsla(202, 100%, 30%, 1);
+}
+
+#tredici{
+    background-color: hsla(202, 100%, 40%, 1);
+}
+
+#dodici{
+    background-color: hsla(202, 100%, 50%, 1);
+}
+
+#undici{
+    background-color: hsla(202, 100%, 60%, 1);
+}
+
+#dieci{
+    background-color: hsla(202, 100%, 70%, 1);
+}
+
+#nove{
+    background-color: hsla(202, 100%, 80%, 1);
+}
+
+#otto{
+    background-color: hsla(202, 100%, 90%, 1);
+}
+
+#sette{
+    background-color: hsla(118, 100%, 39%, 1);
+}
+
+#sei{
+    background-color: hsla(318, 100%, 90%, 1);
+}
+
+#cinque{
+    background-color: hsla(318, 100%, 80%, 1);
+}
+
+#quattro{
+    background-color: hsla(318, 100%, 70%, 1);
+}
+
+#tre{
+    background-color: hsla(318, 100%, 60%, 1);
+}
+
+#due{
+    background-color: hsla(318, 100%, 50%, 1);
+}
+
+#uno{
+    background-color: hsla(318, 100%, 40%, 1);
+}
+
+#zero{
+    background-color: hsla(318, 100%, 30%, 1);
+}

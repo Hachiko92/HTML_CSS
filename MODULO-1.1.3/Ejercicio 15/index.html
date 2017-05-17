@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <title>Ejercicio 15</title>
+        <meta name="author" content="Eleonora">
+        <meta name="keywords" content="ejercicio, float, clear">
+        <meta name="description" content="ejercicio 15: Utilizar float y clear">
+
+        <link href="https://fonts.googleapis.com/css?family=Arimo|Playfair+Display" rel="stylesheet">
+
+        <style>
+            .wrap{
+                width: 80%;
+                clear: left;
+                margin: 5% auto;
+                color: #333;
+                font-family: 'Arimo', sans-serif;
+                font-size: 16
+            }
+
+            h1{
+                margin: 0;
+                line-height: 160%
+
+            }
+
+            article{
+                width: 45%;
+                color: black;
+            }
+
+            #uno{
+                /* el mismo padding ha sido puesto en el header y en el footer */
+                padding-left: 2%;
+            }
+
+            #dos{
+                float: right;
+                padding: 2.5%;
+                border-top: 2px solid;
+                border-bottom: 2px solid;
+                margin: 2% 0 2% 5%;
+            }
+
+            footer, header{
+                height: 60px;
+                width: 100%;
+                color: white;
+                background-color: #333;
+                margin: 10px 0;
+                padding: 10px;
+                padding-left: 2%;
+                font-family: 'Playfair Display', serif;
+            }
+
+        </style>
+        
+    </head>
+    <body>
+        
+        <div class="wrap">
+            
+            <header>
+                <h1>
+                    Pippo Franco
+                </h1>
+            </header>
+
+            <article id="dos">
+                
+                <h2>
+                    Novela
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis dolor sit 
+                    amet ligula cursus tempor ut eget felis. Vivamus a finibus arcu. Morbi nec leo risus. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis erat 
+                    ut nisl sodales, in pellentesque enim viverra. Nulla quis nisl id felis egestas porta 
+                    a at turpis. Fusce auctor id justo non sollicitudin.
+                </p>
+
+            </article>
+
+            <div id="uno">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis dolor sit 
+                    amet ligula cursus tempor ut eget felis. Vivamus a finibus arcu. Morbi nec leo risus. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis erat 
+                    ut nisl sodales, in pellentesque enim viverra. Nulla quis nisl id felis egestas porta 
+                    a at turpis. Fusce auctor id justo non sollicitudin.
+                </p>
+
+                <p>
+                    Maecenas ut eleifend purus. Aenean tempus ultrices placerat. Aenean nisi enim, gravida 
+                    at suscipit sed, porta ac sem. Phasellus placerat erat eu congue vehicula. Sed in lobortis 
+                    elit, sit amet hendrerit ex. Morbi vel hendrerit lectus. Nulla nec euismod felis, vitae 
+                    porttitor purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce a 
+                    scelerisque ligula, in porttitor nibh. Aenean et ex ut risus eleifend vestibulum quis at 
+                    mi. Pellentesque ut neque pharetra, pretium urna eu, congue risus. Nam condimentum dui 
+                    sit amet elit porttitor, a scelerisque libero pretium. Praesent nibh se neque.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis dolor sit 
+                    amet ligula cursus tempor ut eget felis. Vivamus a finibus arcu. Morbi nec leo risus. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis erat 
+                    ut nisl sodales, in pellentesque enim viverra. Nulla quis nisl id felis egestas porta 
+                    a at turpis. Fusce auctor id justo non sollicitudin.
+                </p>
+            </div>
+
+            <footer>
+                <address>
+                    elio Madrid
+                </address>
+                <small>
+                    ningun copyright
+                </small>
+            </footer>
+
+        </div>
+        
+    </body>
+    
+</html>

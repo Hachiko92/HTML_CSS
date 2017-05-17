@@ -1,0 +1,13 @@
+/* es como css pero se puede anidar las "etiquetas" */
+body {
+  width: 80%;
+  margin: auto; }
+  body article {
+    width: 50%;
+    background-color: bisque; }
+  body footer {
+    border-top: 2px solid; }
+    body footer p {
+      color: blue; }
+
+/*# sourceMappingURL=inicio.css.map */

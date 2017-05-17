@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="utf-8">
+        <title>prova</title>
+        <meta name="author" content="Eleonora">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+
+        <style>
+            h1, h2, .parrafo {
+                width: 40%;
+                float: left;
+            }
+            h1{
+                background-color:coral;
+            }
+            h2{
+                background-color:aquamarine;
+            }
+            .parrafo{
+                /* dando una anchura que sea mas de 20% (100 - 40(h1) - 40(h2)= 20) 
+                   el bloque ententa a ir mas abajo de h1 y h2 */
+                width: 30%;
+                /* .parrafo choca con h1 porque es un poco mas alto de h2 y por esto se
+                   pone justo abajo de h2, para resolver el problema  le digo que no tiene 
+                   que tener nada a la izquierda */
+                clear: left;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <h1> Titulo </h1>
+        <h2> Subtitulo </h2>
+        <div class="parrafo">
+            <p id="p1"> Hola que tal </p>
+            <p id="p2"> bla bla bla </p>
+        </div>
+
+    </body>
+
+</html>

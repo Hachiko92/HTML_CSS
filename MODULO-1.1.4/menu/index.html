@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <title>Ejercicio menú</title>
+        <meta name="author" content="Eleonora">
+        <meta name="keywords" content="ejercicio, transition">
+        <meta name="description" content="ejercicio transition">
+
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                color:#434545;
+            }
+            nav{
+                width: 50%;
+                float: right;
+            }
+
+            ul{
+                /* ul tiene elementos flotantes dentro y es a el que pongo: */
+                overflow: auto;
+                padding: 10px;
+                margin:0;
+            }
+
+            li{
+                float: right;
+                list-style-type: none;
+                text-align: center;
+                /* son cuatros elementos y ponendo el ancho 25% hago si que adaptan siempre */
+                width: 20%;
+                /* pongo un altura así ul lo eredita y nav tambien que tiene el overflow */
+                height: 1em;
+                margin-right: 4%;
+                padding: 1em 0;
+                font-size: 1em;
+                line-height:0.2em;
+                background-color: darkred;
+                -webkit-transition: background-color 1s,
+                                    width 1s;
+                -moz-transition: background-color 1s,
+                                 width 1s;
+                -o-transition: background-color 1s,
+                               width 1s;
+                transition: background-color 1s,
+                            width 1s;
+            }
+
+            li:last-of-type{
+                margin-right: 0;
+            }
+
+            li:hover{
+                background-color: #430000;
+                width: 25%;
+            }
+
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            a:hover{
+                font-weight: bold;
+            }
+            p{
+                clear: both;
+                margin-top: 30px;
+            }
+
+        </style>
+        
+    </head>
+    <body>
+        
+        <nav>
+            <ul>
+                <a href="#">
+                    <li> 
+                        Contactos
+                    </li>
+                </a>
+                <a href="#">
+                    <li> 
+                        Quien Somos
+                    </li>
+                </a>
+                <a href="#">
+                    <li> 
+                        Productos 
+                    </li>
+                </a>
+                <a href="#">
+                    <li> 
+                        Inicio 
+                    </li>
+                </a>
+            </ul>
+        </nav>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem porro eos rerum non eum eaque laudantium perferendis, cupiditate doloremque, incidunt magnam illo autem suscipit alias. Eos quae pariatur non hic.
+        </p>
+        
+    </body>
+    
+</html>

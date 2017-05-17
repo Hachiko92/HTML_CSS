@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <title>Ejercicio 14</title>
+        <meta name="author" content="Eleonora">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+
+        <style>
+            
+            .caja, .caja1, .caja2, .caja3, .caja4 {
+                width: 150px;
+                height: 50px;
+                position: absolute;
+            }
+            .caja{
+                width: 300px;
+                border: 2px solid black;
+                left: 50px;
+                top: 70px;
+            }
+            .caja1{
+                left: 0px;
+                background-color: lightyellow;
+            }
+            .caja2 {
+                right: 0px;
+                background-color: lightgreen;
+            }
+            .caja3 {
+                top: 30px;
+                left: 250px;
+                z-index: 1;
+                background-color: lightpink;
+            }
+            .caja4 {
+                position: fixed;
+                bottom: 0;
+                left: 0px;
+                width: 100%;
+                height: 30px;
+                background-color: lightsalmon;
+                z-index: 2;
+            }
+
+        </style>
+        
+    </head>
+    <body>
+        
+        <div class="caja">
+            <div class="caja1">
+                Caja 1
+            </div>
+            <div class="caja2">
+                Caja 2
+            </div>
+            <div class="caja3">
+                Caja 3
+            </div>
+            <div class="caja4">
+                Caja 4
+            </div>
+        
+    </body>
+    
+</html>
